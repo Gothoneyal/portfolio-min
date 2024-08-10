@@ -1,0 +1,52 @@
+#projectsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+.project{
+    background-color: #f9f9f940;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.2s;
+}
+.project:hover{
+    transform: scale(1.05);
+}
+.project h2{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.project img{
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+.project p{
+    color: white;
+}
+.project .button{
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #007BFF;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    /*background-color: black;
+    border-radius: 4px;
+    color: white;
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: background-color 0.3s;*/
+}
+.project .button:hover{
+    background-color: purple;
+}

@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Admin-side page",
+        "description": "Welcome to the Corona Admin Page, your centralized hub for managing the workings of any website.",
+        "image": "images/assets/classic-horizontal.jpg",
+        "link": ""
+      },
+      {
+        "id": 2,
+        "title": "Johhny's Dinning and Bar",
+        "description": "Welcome to Johnny's Dining and Bar Admin Page, your essential tool for managing every aspect of our restaurant.",
+        "image": "images/assets/homepageloggedin.png",
+        "link": "https://google.com"
+      },
+      {
+        "id": 3,
+        "title": "Internet of Blockchain",
+        "description": "Welcome to The Internet of Blockchains, your gateway to the decentralized future. Explore how interconnected blockchains revolutionize data security, transparency, and efficiency across various industries.",
+        "image": "images/assets/images.jpeg",
+        "link": "https://example.com/project-two"
+      }
+]
