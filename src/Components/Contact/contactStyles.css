@@ -3,8 +3,8 @@ label{
     margin-bottom: 0.5rem;
 }
 .contact-me{
-    margin-top: 30px;
-    margin-left: 250px;
+    display: flex;
+    justify-content: center;
 }
 form{
     display: flex;

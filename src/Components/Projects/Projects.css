@@ -1,5 +1,13 @@
 .projects-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
     padding: 20px;
+  }
+  h3{
+    font-size: 1.5em;
+    margin-bottom: 10px;
   }
   
   .projects-grid {
@@ -9,15 +17,20 @@
   }
   
   .project-card {
+    background-color: #f9f9f940;
     border: 1px solid #ddd;
     border-radius: 8px;
-    overflow: hidden;
-    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    text-align: center;
+    width: 300px;
+    transition: transform 0.2s;
   }
   
   .project-card img {
     width: 100%;
-    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
   }
   
   .project-info {
