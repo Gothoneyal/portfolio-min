@@ -1,11 +1,13 @@
 .projects-section {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
     padding: 20px;
+    margin-left: 18%;
   }
-  h3{
+  h2{
     font-size: 1.5em;
     margin-bottom: 10px;
   }

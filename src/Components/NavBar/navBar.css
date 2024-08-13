@@ -75,6 +75,23 @@
     background: rgb(30, 30, 30);
     display: none;
 }
+/* navBar.css */
+
+.logoutBtn {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 15px; /* Add spacing from the previous menu item */
+  }
+  
+  .logoutBtn:hover {
+    background-color: #e60000;
+  }
+  
 @media screen and (max-width:840px) {
     .mobileMenu{
         display: flex;

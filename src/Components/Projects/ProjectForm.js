@@ -3,7 +3,7 @@ import { db, storage } from '../../firebase';  // Import db and storage
 import { collection, addDoc } from 'firebase/firestore';
 import { ref, uploadBytes, getDownloadURL } from 'firebase/storage';
 import { v4 as uuidv4 } from 'uuid';
-
+import './ProjectForm.css'; // Import the CSS file
 
 function ProjectForm() {
   const [title, setTitle] = useState('');
@@ -47,20 +47,34 @@ function ProjectForm() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
+    <form className="project-form" onSubmit={handleSubmit}>
+      <div className="form-group">
         <label>Title:</label>
-        <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} />
+        <input
+          type="text"
+          value={title}
+          onChange={(e) => setTitle(e.target.value)}
+          className="form-input"
+        />
       </div>
-      <div>
+      <div className="form-group">
         <label>Description:</label>
-        <textarea value={description} onChange={(e) => setDescription(e.target.value)} />
+        <textarea
+          value={description}
+          onChange={(e) => setDescription(e.target.value)}
+          className="form-textarea"
+        />
       </div>
-      <div>
+      <div className="form-group">
         <label>Image:</label>
-        <input type="file" accept="image/*" onChange={handleFileChange} />
+        <input
+          type="file"
+          accept="image/*"
+          onChange={handleFileChange}
+          className="form-input"
+        />
       </div>
-      <button type="submit">Upload Project</button>
+      <button type="submit" className="submit-button">Upload Project</button>
     </form>
   );
 }
